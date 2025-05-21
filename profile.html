@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>about us</title>
+<h1>About us</h1>
+<body>
+  <div class="container">
+    <div class="profile-card">
+      <img class="profile-img" src="bagus1.jpg">
+      <div class="profile-name">Bagus widianto</div>
+      <div class="profile-school">smk kbm 1</div>
+      <div class="profile-desc">starboy kbm</div>
+    </div>
+    <div class="profile-card">
+      <img class="profile-img" src="bintang1.jpg">
+      <div class="profile-name">bintang rama</div>
+      <div class="profile-school">Smk kbm 1</div>
+      <div class="profile-desc">orang gila dikbm</div>
+    </div>
+    <div class="profile-card">
+      <img class="profile-img" src="faruq1.jpg">
+      <div class="profile-name">faruq</div>
+      <div class="profile-school">smk kbm 1</div>
+      <div class="profile-desc">orang cool</div>
+    </div>
+    <div class="profile-card">
+      <img class="profile-img" src="rafael.JPG">
+      <div class="profile-name">rafael oktaviano</div>
+      <div class="profile-school">smk kbm 1</div>
+      <div class="profile-desc">prindafannya kbm</div>
+    </div>
+    <div class="profile-card">
+      <img class="profile-img" src="revan.jpg">
+      <div class="profile-name">revan</div>
+      <div class="profile-school">smk kbm 1</div>
+      <div class="profile-desc">buronan</div>
+    </div>
+  </div>
+<style>
+h1 {
+    text-align: center;
+    background-color: skyblue;
+    font-size: 40px;
+}
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #2c4f83;
+    color: #333;
+  }
+
+  .container {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .profile-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 30px 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #4a90e2;
+    box-shadow: 0 4px 10px rgba(74, 144, 226, 0.6);
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #4a90e2;
+  }
+
+  .profile-school {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+  }
+
+  .profile-desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+  }
+</style>
+</head>
+
+</body>
+</html>

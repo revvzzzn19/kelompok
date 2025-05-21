@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MENU PIZZA</title>
+<body>
+
+  <header>
+    <div class="about-us">
+  <a href="profile.html"><img src="user.png" width="160%" height="160%"/></a>
+</div>
+  <h1>THE BEST PIZZA</h1>
+</header>
+
+<main class="container">
+  <article class="food-card" tabindex="0">
+    <img class="food-image" src="pizza.jpg" />
+    <div class="food-details">
+      <h2 class="food-title">Greek style Pizza</h2>
+      <p class="food-description"> Kulitnya yang renyah diberi bawang merah , tomat segar, oregano, greek zaitun , mozzarella lembut , dan keju feta yang tajam. Rasanya LUAR BIASA!</p>
+      <div class="food-price">Rp75.000</div>
+    </div>
+  </article>
+
+  <article class="food-card" tabindex="0">
+    <img class="food-image" src="pizza2.jpg" />
+    <div class="food-details">
+      <h2 class="food-title">Neapolitan pizza</h2>
+      <p class="food-description">pizza yang berasal dari Naples, Italia, dikenal dengan kulit tipis, lembut, 
+        dan sedikit renyah, dengan topping sederhana seperti saus tomat, keju mozzarella, dan basil segar.</p>
+      <div class="food-price">Rp.85.000</div>
+    </div>
+  </article>
+
+  <article class="food-card" tabindex="0">
+    <img class="food-image" src="pizza3.jpg" />
+    <div class="food-details">
+      <h2 class="food-title">Pizza bianca</h2>
+      <p class="food-description">Pizza Bianca adalah permata Italia klasik, 
+        kreasi sederhana namun lezat yang dibuat tanpa tambahan tomat, baik segar maupun saus. Namanya, yang berarti "pizza putih.</p>
+      <div class="food-price">Rp.70.000</div>
+    </div>
+  </article>
+
+</main>
+<style>
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, red, blue );
+    color: #333;
+  }
+  .about-us{
+    float: left;
+  }
+  header {
+    background-color: black;
+    color: #fff;
+    padding: 2rem;
+    text-align:center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+  }
+
+  .food-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(255, 111, 97, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .food-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(255, 111, 97, 0.4);
+  }
+
+  .food-image {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .food-details {
+    padding: 1.25rem 1.5rem 2rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .food-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #ff4b3e;
+  }
+
+  .food-description {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 1.25rem;
+  }
+
+  .food-price {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #ff6f61;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+    background: black;
+  }
+
+  
+</style>
+
+</head>
+
+
+<footer>
+  &copy; 2025 Tugas kelompok informatika. ketuanya king bagus
+</footer>
+</body>
+</html>
